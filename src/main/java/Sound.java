@@ -44,7 +44,7 @@ public class Sound
     int n = 0;
     for (int i = thing; i < samples.length; i++){
         cool[n] = samples[i];
-        newIndex++;
+        n++;
     }
     samples = cool;
   }
